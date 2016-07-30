@@ -1,7 +1,7 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 
-  <head>
+<head>
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <meta name="description" content="Nanashia.github.io : ">
@@ -9,71 +9,98 @@
     <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
 
     <title>Nanashia.github.io</title>
-    
-    <style type="text/css">
-    #links img {
-    	margin: 0 0.5em;
-    	width: 16px;
-    	height: 16px;
-    	padding: 8px;
-    	border-radius: 16px;
-    	background-color: #EEE;
-    	box-shadow:rgba(113, 135, 164, 0.5) 0px 0px 5px 1px;
-    }
-    #links img:hover {
-    	background-color: #DDD;
-    	box-shadow:rgba(113, 135, 164, 0.5) 0px 0px 5px 1px ;
-    }
-    </style>
-  </head>
 
-  <body>
+    <style type="text/css">
+        .links-mini img {
+            margin: 0 0.5em;
+            width: 0.75em;
+            height: 0.75em;
+            padding: 0.125em;
+            border-radius: 0.75em;
+            background-color: #EEE;
+            box-shadow: rgba(113, 135, 164, 0.5) 0px 0px 3px 1px;
+        }
+
+            .links-mini img:hover {
+                background-color: #DDD;
+            }
+
+        .links img {
+            margin: 0 0.5em;
+            width: 16px;
+            height: 16px;
+            padding: 8px;
+            border-radius: 16px;
+            background-color: #EEE;
+            box-shadow: rgba(113, 135, 164, 0.5) 0px 0px 5px 1px;
+        }
+
+            .links img:hover {
+                background-color: #DDD;
+            }
+
+        li:before {
+            content: '- ';
+            margin: 0 5px 0 -15px;
+        }
+    </style>
+</head>
+
+<body>
 
     <!-- HEADER -->
     <div id="header_wrap" class="outer">
         <header class="inner">
-          <h1 id="project_title">Nanashia (na128/NA##)</h1>
-          <h2 id="project_tagline">プログラムとかお絵かきしてます。</h2>
+            <h1 id="project_title">@Nanashia / na128 / NA##</h1>
+            <h2 id="project_tagline">プログラムとかお絵かきしてます。</h2>
         </header>
     </div>
 
     <!-- MAIN CONTENT -->
     <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-		<p>
-			/** If you feel me annoying or disgusting on Twitter, please do not hasitate to remove and block me. （お気軽にリムブロどうぞ）*/
-		</p>
-		
-		<h4><span class="octicon octicon-link">Links:</span></h4>
-		<p id="links">
-			<a href="http://github.com/Nanashia"><img src="http://github.com/favicon.ico" /></a>
-			<a href="http://twitter.com/Nanashia"><img src="https://twitter.com/favicon.ico" /></a>
-			<a href="https://www.tumblr.com/blog/nanashia"><img src="https://secure.assets.tumblr.com/images/tumblr_t_logo.svg" /></a>
-			<a href="http://nanashia.deviantart.com/"><img src="http://nanashia.deviantart.com/favicon.ico" /></a>&nbsp;[
-			<a href="http://nanashia.deviantart.com/gallery/?catpath=%2Fdigitalart%2Fpixelart">ドット絵</a>/
-			<a href="http://nanashia.deviantart.com/gallery/?catpath=%2F&q=gochuumon">ごちうさ</a>/
-			<a href="http://nanashia.deviantart.com/gallery/?q=utauloid+OR+UTAU+OR+VOICEROID+OR+VOCALOID">UTAU</a>]
-		</p>
-      </section>
+        <section id="main_content" class="inner">
+            <h3>What I do</h3>
+            <ul>
+                <li>Computer programmig</li>
+                <li>Drawing arts and pixelarts（ドット絵）<a class="links-mini" href="http://nanashia.deviantart.com/gallery/?catpath=%2Fdigitalart%2Fpixelart"><img src="http://nanashia.deviantart.com/favicon.ico" /></a></li>
+            </ul>
+            <h3>What I like</h3>
+            <ul>
+                <li>C, C++, C#, Lua, Haxe</li>
+                <li>Linux, AndroidSDK(NDK), OpenGL, OpenFL, SQLite3</li>
+                <li>VOCALOID, VOICEROID and Utauloid（ＵＴＡＵ）<a class="links-mini" href="http://nanashia.deviantart.com/gallery/?q=utauloid+OR+UTAU+OR+VOICEROID+OR+VOCALOID"><img src="http://nanashia.deviantart.com/favicon.ico" /></a></li>
+                <li>Gochiusa（ご注文はうさぎですか？）<a class="links-mini" href="http://nanashia.deviantart.com/gallery/?catpath=%2F&q=gochuumon"><img src="http://nanashia.deviantart.com/favicon.ico" /></a></li>
+            </ul>
+
+            <h3><span class="octicon octicon-link">Links:</span></h3>
+            <p id="links">
+                <a class="links" href="http://github.com/Nanashia"><img src="http://github.com/favicon.ico" /></a>
+                <a class="links" href="http://twitter.com/Nanashia"><img src="https://twitter.com/favicon.ico" /></a>
+                <a class="links" href="https://www.tumblr.com/blog/nanashia"><img src="https://secure.assets.tumblr.com/images/tumblr_t_logo.svg" /></a>
+                <a class="links" href="http://nanashia.deviantart.com/"><img src="http://nanashia.deviantart.com/favicon.ico" /></a>
+            </p>
+        </section>
     </div>
 
     <!-- FOOTER  -->
     <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
-      </footer>
+        <footer class="inner">
+            <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+        </footer>
     </div>
-    
-    <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-  ga('create', 'UA-59803948-1', 'auto');
-  ga('send', 'pageview');
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date(); a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-59803948-1', 'auto');
+        ga('send', 'pageview');
 
     </script>
-    
-  </body>
+
+</body>
 </html>
